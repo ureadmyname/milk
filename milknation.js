@@ -110,7 +110,7 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autoe = !autoe;
-API.sendChat("/me autoe message now set to " + e);}}};
+API.sendChat("/me e message now set to " + autoe);}}};
 
 bot.commands.autof = {
 command: ['autof'],
@@ -121,7 +121,7 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autof = !autof;
-API.sendChat("/me autof message now set to " + f);}}};
+API.sendChat("/me f message now set to " + autof);}}};
 
 bot.commands.a { 			
 command: 'a', 			
