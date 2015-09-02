@@ -23,35 +23,35 @@ API.sendChat("!a");
 1000 * 3);
 
 setInterval(function () {
-if(b === true) {
+if(autob === true) {
 API.sendChat("!b");
 }
 },
 1000 * 14);
         
 setInterval(function () {
-if(c === true) {
+if(autoc === true) {
 API.sendChat("!c");
 }
 },
 1000 * 5);
         
 setInterval(function () {
-if(d === true) {
+if(autod === true) {
 API.sendChat("!d");
 }
 },
 1000 * 9);
 
 setInterval(function () {
-if(e === true) {
+if(autoe === true) {
 API.sendChat("!e");
 }
 },
 1000 * 11);
 
 setInterval(function () {
-if(f === true) {
+if(autof === true) {
 API.sendChat("!f");
 }
 },
