@@ -5,112 +5,112 @@ if (!window.bot) {
 return setTimeout(extend, 1 * 1000);
 }
 
-var 1 = true;
-var 2 = true;
-var 3 = true;
-var 4 = true;
-var 5 = true;
-var 6 = true;
+var a = true;
+var b = true;
+var c = true;
+var d = true;
+var e = true;
+var f = true;
 var bot = window.bot;
 
 bot.retrieveSettings();
 
 setInterval(function () {
-if(1 === true) {
+if(a === true) {
 API.sendChat("https://plug.dj/its-a-trap-and-edm");
 }
 },
 1000 * 3);
 
 setInterval(function () {
-if(2 === true) {
+if(b === true) {
 API.sendChat("http://lemonparty.org/");
 }
 },
 1000 * 9);
         
 setInterval(function () {
-if(3 === true) {
+if(c === true) {
 API.sendChat("FUCK YOU!");
 }
 },
 1000 * 6);
         
 setInterval(function () {
-if(4 === true) {
+if(d === true) {
 API.sendChat(":trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface:");
 }
 },
 1000 * 4);
 
 setInterval(function () {
-if(5 === true) {
+if(e === true) {
 API.sendChat("http://gfycat.com/SelfishMixedAcornbarnacle");
 }
 },
 1000 * 13);
 
 setInterval(function () {
-if(autoTwitch === true) {
+if(f === true) {
 API.sendChat("http://cdn.makeagif.com/media/7-05-2015/-xEI03.gif");
 }
 },
 1000 * 11);
 
-bot.commands.1 = {
-command: ['1'],
+bot.commands.a = {
+command: ['a'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
-1 = !1;
-API.sendChat("/me 1 now set to " + 1);}}};
+a = !a;
+API.sendChat("/me a now set to " + a);}}};
 
-bot.commands.2 = {
-command: ['2'],
+bot.commands.b = {
+command: ['b'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
-2 = !2;
-API.sendChat("/me 2 now set to " + 2);}}};
+b = !b;
+API.sendChat("/me b now set to " + b);}}};
                     
-bot.commands.3 = {
-command: ['3'],
+bot.commands.c = {
+command: ['c'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
-3 = !3;
-API.sendChat("/me 3 now set to " + 3);}}};
+c = !c;
+API.sendChat("/me c now set to " + c);}}};
 
-bot.commands.4 = {
-command: ['4'],
+bot.commands.d = {
+command: ['d'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
-4 = !4;
-API.sendChat("/me 4 message now set to " + 4);}}};
+d = !d;
+API.sendChat("/me d message now set to " + d);}}};
 
-bot.commands.5 = {
-command: ['5'],
+bot.commands.e = {
+command: ['e'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
-5 = !5;
-API.sendChat("/me 5 message now set to " + 5);}}};
+e = !e;
+API.sendChat("/me e message now set to " + e);}}};
 
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
