@@ -16,101 +16,155 @@ var bot = window.bot;
 bot.retrieveSettings();
 
 setInterval(function () {
-if(a === true) {
-API.sendChat("https://plug.dj/its-a-trap-and-edm");
+if(autoa === true) {
+API.sendChat("!a");
 }
 },
-1000 * 60);
+1000 * 3);
 
 setInterval(function () {
 if(b === true) {
-API.sendChat("http://lemonparty.org/");
+API.sendChat("!b");
 }
 },
-1000 * 1000);
+1000 * 14);
         
 setInterval(function () {
 if(c === true) {
-API.sendChat("FUCK YOU!");
+API.sendChat("!c");
 }
 },
-1000 * 1000);
+1000 * 5);
         
 setInterval(function () {
 if(d === true) {
-API.sendChat(":trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface:");
+API.sendChat("!d");
 }
 },
-1000 * 1000);
+1000 * 9);
 
 setInterval(function () {
 if(e === true) {
-API.sendChat("http://gfycat.com/SelfishMixedAcornbarnacle");
+API.sendChat("!e");
 }
 },
-1000 * 1000);
+1000 * 11);
 
 setInterval(function () {
 if(f === true) {
-API.sendChat("http://cdn.makeagif.com/media/7-05-2015/-xEI03.gif");
+API.sendChat("!f");
 }
 },
-1000 * 1000);
+1000 * 6);
 
-bot.commands.a = {
-command: ['a'],
+bot.commands.autoa = {
+command: ['autoa'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
-a = !a;
-API.sendChat("/me a now set to " + a);}}};
+autoa = !autoa;
+API.sendChat("/me a now set to " + autoa);}}};
 
-bot.commands.b = {
-command: ['b'],
+bot.commands.autob = {
+command: ['autob'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
-b = !b;
-API.sendChat("/me b now set to " + b);}}};
+autob = !autob;
+API.sendChat("/me b now set to " + autob);}}};
                     
-bot.commands.c = {
-command: ['c'],
+bot.commands.autoc = {
+command: ['autoc'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
-c = !c;
-API.sendChat("/me c now set to " + c);}}};
+autoc = !autoc;
+API.sendChat("/me c now set to " + autoc);}}};
 
-bot.commands.d = {
-command: ['d'],
+bot.commands.autod = {
+command: ['autod'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
-d = !d;
-API.sendChat("/me d message now set to " + d);}}};
+autod = !autod;
+API.sendChat("/me d message now set to " + autod);}}};
 
-bot.commands.e = {
-command: ['e'],
+bot.commands.autoe = {
+command: ['autoe'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
-e = !e;
-API.sendChat("/me e message now set to " + e);}}};
+autoe = !autoe;
+API.sendChat("/me autoe message now set to " + e);}}};
+
+bot.commands.a { 			
+command: 'a', 			
+rank: 'user', 			
+type: 'exact', 			
+functionality: function (chat, cmd) { 			
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0); 			
+if (!bot.commands.executable(this.rank, chat)) return void (0); 			
+else {API.sendChat("/me https://plug.dj/its-a-trap-and-edm");}}}; 
+
+bot.commands.b { 			
+command: 'b', 			
+rank: 'user', 			
+type: 'exact', 			
+functionality: function (chat, cmd) { 			
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0); 			
+if (!bot.commands.executable(this.rank, chat)) return void (0); 			
+else {API.sendChat("/me http://lemonparty.org/");}}}; 
+
+bot.commands.c { 			
+command: 'c', 			
+rank: 'user', 			
+type: 'exact', 			
+functionality: function (chat, cmd) { 			
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0); 			
+if (!bot.commands.executable(this.rank, chat)) return void (0); 			
+else {API.sendChat("/me :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface:");}}}; 
+
+bot.commands.d { 			
+command: 'd', 			
+rank: 'user', 			
+type: 'exact', 			
+functionality: function (chat, cmd) { 			
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0); 			
+if (!bot.commands.executable(this.rank, chat)) return void (0); 			
+else {API.sendChat("/me http://gfycat.com/SelfishMixedAcornbarnacle");}}}; 
+
+bot.commands.e { 			
+command: 'e', 			
+rank: 'user', 			
+type: 'exact', 			
+functionality: function (chat, cmd) { 			
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0); 			
+if (!bot.commands.executable(this.rank, chat)) return void (0); 			
+else {API.sendChat("/me http://cdn.makeagif.com/media/7-05-2015/-xEI03.gif");}}}; 
+
+bot.commands.f { 			
+command: 'f', 			
+rank: 'user', 			
+type: 'exact', 			
+functionality: function (chat, cmd) { 			
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0); 			
+if (!bot.commands.executable(this.rank, chat)) return void (0); 			
+else {API.sendChat("/me FUCK YOU!");}}}; 
 
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
