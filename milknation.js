@@ -20,42 +20,42 @@ if(a === true) {
 API.sendChat("https://plug.dj/its-a-trap-and-edm");
 }
 },
-1000 * 3);
+1000 * 60);
 
 setInterval(function () {
 if(b === true) {
 API.sendChat("http://lemonparty.org/");
 }
 },
-1000 * 9);
+1000 * 1000);
         
 setInterval(function () {
 if(c === true) {
 API.sendChat("FUCK YOU!");
 }
 },
-1000 * 6);
+1000 * 1000);
         
 setInterval(function () {
 if(d === true) {
 API.sendChat(":trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface:");
 }
 },
-1000 * 4);
+1000 * 1000);
 
 setInterval(function () {
 if(e === true) {
 API.sendChat("http://gfycat.com/SelfishMixedAcornbarnacle");
 }
 },
-1000 * 13);
+1000 * 1000);
 
 setInterval(function () {
 if(f === true) {
 API.sendChat("http://cdn.makeagif.com/media/7-05-2015/-xEI03.gif");
 }
 },
-1000 * 11);
+1000 * 1000);
 
 bot.commands.a = {
 command: ['a'],
