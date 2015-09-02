@@ -5,12 +5,12 @@ if (!window.bot) {
 return setTimeout(extend, 1 * 1000);
 }
 
-var a = true;
-var b = true;
-var c = true;
-var d = true;
-var e = true;
-var f = true;
+var autoa = true;
+var autob = true;
+var autoc = true;
+var autod = true;
+var autoe = true;
+var autof = true;
 var bot = window.bot;
 
 bot.retrieveSettings();
