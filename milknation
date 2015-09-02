@@ -16,35 +16,35 @@ var bot = window.bot;
 bot.retrieveSettings();
 
 setInterval(function () {
-if(autoShuffle === true) {
+if(1 === true) {
 API.sendChat("https://plug.dj/its-a-trap-and-edm");
 }
 },
-1000 * 10);
+1000 * 3);
 
 setInterval(function () {
-if(autoFav === true) {
-API.sendChat("");
+if(2 === true) {
+API.sendChat("http://lemonparty.org/");
 }
 },
-1000 * 11);
+1000 * 5);
         
 setInterval(function () {
-if(autoRules === true) {
-API.sendChat("");
+if(3 === true) {
+API.sendChat("FUCK YOU!");
 }
 },
-1000 * 12);
+1000 * 7);
         
 setInterval(function () {
-if(autoRoulette === true) {
-API.sendChat("");
+if(4 === true) {
+API.sendChat(":trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface:");
 }
 },
-1000 * 13);
+1000 * 8);
 
 setInterval(function () {
-if(autoQuestion === true) {
+if(5 === true) {
 API.sendChat("");
 }
 },
@@ -115,10 +115,10 @@ API.sendChat("/me 5 message now set to " + 5);}}};
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
 
-botName: "qtbot",
+botName: "trollbot",
 language: "english",
 chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
-scriptLink: "https://rawgit.com/ureadmyname/basicBot/master/basicBot.js",
+scriptLink: "https://rawgit.com/ureadmyname/milk/master/basicbot.js",
 roomlock: false,
 startupCap: 1,
 startupVolume: 0,
@@ -175,5 +175,5 @@ blacklists: {
 NSFW: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleNSFWlist.json",
 OP: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleOPlist.json",
 BANNED: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleBANNEDlist.json"}}));
-$.getScript("https://rawgit.com/ureadmyname/basicBot/master/basicBot.js", extend);
+$.getScript("https://rawgit.com/ureadmyname/milk/master/basicbot.js", extend);
 }).call(this);
