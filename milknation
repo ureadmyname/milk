@@ -27,35 +27,35 @@ if(2 === true) {
 API.sendChat("http://lemonparty.org/");
 }
 },
-1000 * 5);
+1000 * 9);
         
 setInterval(function () {
 if(3 === true) {
 API.sendChat("FUCK YOU!");
 }
 },
-1000 * 7);
+1000 * 6);
         
 setInterval(function () {
 if(4 === true) {
 API.sendChat(":trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface: :trollface:");
 }
 },
-1000 * 8);
+1000 * 4);
 
 setInterval(function () {
 if(5 === true) {
-API.sendChat("");
+API.sendChat("http://gfycat.com/SelfishMixedAcornbarnacle");
 }
 },
-1000 * 6);
+1000 * 13);
 
 setInterval(function () {
 if(autoTwitch === true) {
-API.sendChat("");
+API.sendChat("http://cdn.makeagif.com/media/7-05-2015/-xEI03.gif");
 }
 },
-1000 * 7);
+1000 * 11);
 
 bot.commands.1 = {
 command: ['1'],
