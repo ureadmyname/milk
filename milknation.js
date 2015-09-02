@@ -20,42 +20,42 @@ if(autoa === true) {
 API.sendChat("!a");
 }
 },
-1000 * 3);
+1000 * 60 * 20);
 
 setInterval(function () {
 if(autob === true) {
 API.sendChat("!b");
 }
 },
-1000 * 14);
+1000 * 60 * 40);
         
 setInterval(function () {
 if(autoc === true) {
 API.sendChat("!c");
 }
 },
-1000 * 5);
+1000 * 60 * 200);
         
 setInterval(function () {
 if(autod === true) {
 API.sendChat("!d");
 }
 },
-1000 * 9);
+1000 * 60 * 150);
 
 setInterval(function () {
 if(autoe === true) {
 API.sendChat("!e");
 }
 },
-1000 * 11);
+1000 * 60 * 100);
 
 setInterval(function () {
 if(autof === true) {
 API.sendChat("!f");
 }
 },
-1000 * 6);
+1000 * 60 * 220);
 
 bot.commands.autoa = {
 command: ['autoa'],
